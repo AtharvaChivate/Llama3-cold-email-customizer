@@ -11,9 +11,10 @@ IBM is searching for a Principal Software Engineer and invests significant time 
 ## Features
 
 - **Automated Web Scraping:** Extracts job roles, skills, and descriptions from career pages using the LangChain framework.
-- **Personalized Email Generation:** Uses Llama 3 to create tailored emails with specific job roles and relevant portfolio links fetched from ChromaDB.
+- **Personalized Email Generation:** Uses the `llama3-70b-8192` model, a variant of Llama 3 with 70 billion parameters and a context window of 8192 tokens, to create tailored emails with specific job roles and relevant portfolio links fetched from ChromaDB.
 - **Faster Response Times:** Integrated with Groq to leverage their LPUs for quicker inference, enhancing the overall performance of the email generation process.
 - **User-Friendly Interface:** Built with Streamlit to provide a straightforward UI for entering URLs and generating customized cold emails.
+
 
 ## Setup
 
