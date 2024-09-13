@@ -8,7 +8,7 @@ This project is a cold email generator designed for software service companies, 
 
 Imagine this scenario:
 
-IBM is searching for a Principal Software Engineer and invests significant time and resources into the hiring process, onboarding, and training new employees. Meanwhile, a software development company can provide dedicated software engineers directly to IBM. To approach IBM, a business development executive from the software company will use this tool to generate a customized cold email, making the outreach more relevant and impactful.
+XYZ Company is searching for a Principal Software Engineer and invests significant time and resources into the hiring process, onboarding, and training new employees. Meanwhile, a software development company can provide dedicated software engineers directly to XYZ. To approach XYZ, a business development executive from the software company will use this tool to generate a customized cold email, making the outreach more relevant and impactful.
 
 ## Features
 
