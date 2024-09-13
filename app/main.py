@@ -7,7 +7,7 @@ from utils import clean_text
 
 
 def create_streamlit_app(llm, portfolio, clean_text):
-    st.title("📧 Cold Mail Generator")
+    st.title("✉️ Cold Mail Generator")
     url_input = st.text_input("Enter a URL:", value="https://jobs.nike.com/job/R-33460")
     submit_button = st.button("Submit")
 
@@ -29,7 +29,9 @@ def create_streamlit_app(llm, portfolio, clean_text):
 if __name__ == "__main__":
     chain = Chain()
     portfolio = Portfolio()
-    st.set_page_config(layout="wide", page_title="Cold Email Generator", page_icon="📧")
+    st.set_page_config(layout="wide", page_title="Cold Email Generator", page_icon="✉️")
     create_streamlit_app(chain, portfolio, clean_text)
 
-# Run this by using the command streamlit run .\app\main.py
+
+# Run this by : 1. Activate your virtual environment by :  .\venv\Scripts\activate
+# 2. Launch the streamlit server: streamlit run .\app\main.py
